@@ -1,10 +1,10 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations\Tests\Concerns;
+namespace Halo\LaravelCompositeRelations\Tests\Concerns;
 
 use Illuminate\Database\Capsule\Manager as DB;
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Reedware\LaravelCompositeRelations\Tests\EloquentTaskModelStub;
+use Halo\LaravelCompositeRelations\Tests\EloquentTaskModelStub;
 
 trait RunsIntegrationQueries
 {

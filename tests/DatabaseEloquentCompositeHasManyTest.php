@@ -1,13 +1,13 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations\Tests;
+namespace Halo\LaravelCompositeRelations\Tests;
 
 use Mockery as m;
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Reedware\LaravelCompositeRelations\CompositeHasMany;
+use Halo\LaravelCompositeRelations\CompositeHasMany;
 
 class DatabaseEloquentCompositeHasManyTest extends TestCase
 {

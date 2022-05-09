@@ -1,9 +1,9 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations\Tests;
+namespace Halo\LaravelCompositeRelations\Tests;
 
 use Illuminate\Database\Eloquent\Model;
-use Reedware\LaravelCompositeRelations\HasCompositeRelations;
+use Halo\LaravelCompositeRelations\HasCompositeRelations;
 
 class EloquentCompositeRelationModelStub extends Model
 {

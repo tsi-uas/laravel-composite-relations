@@ -1585,7 +1585,7 @@
             "time": "2018-08-09T05:50:03+00:00"
         },
         {
-            "name": "reedware/laravel-relation-joins",
+            "name": "halo/laravel-relation-joins",
             "version": "v1.0.6",
             "source": {
                 "type": "git",
@@ -1612,13 +1612,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Reedware\\LaravelRelationJoins\\LaravelRelationJoinServiceProvider"
+                        "Halo\\LaravelRelationJoins\\LaravelRelationJoinServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Reedware\\LaravelRelationJoins\\": "src/"
+                    "Halo\\LaravelRelationJoins\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

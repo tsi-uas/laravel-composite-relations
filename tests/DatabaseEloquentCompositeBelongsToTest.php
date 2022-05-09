@@ -1,12 +1,12 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations\Tests;
+namespace Halo\LaravelCompositeRelations\Tests;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Reedware\LaravelCompositeRelations\CompositeBelongsTo;
+use Halo\LaravelCompositeRelations\CompositeBelongsTo;
 
 class DatabaseEloquentCompositeBelongsToTest extends TestCase
 {

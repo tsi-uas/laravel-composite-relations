@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations;
+namespace Halo\LaravelCompositeRelations;
 
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
@@ -80,7 +80,7 @@ trait HasCompositeRelations
      * @param  string  $related
      * @param  array|null  $foreignKeys
      * @param  array|null  $localKeys
-     * @return \Reedware\LaravelCompositeRelations\CompositeHasOne
+     * @return \Halo\LaravelCompositeRelations\CompositeHasOne
      */
     public function compositeHasOne($related, array $foreignKeys = null, array $localKeys = null)
     {
@@ -104,7 +104,7 @@ trait HasCompositeRelations
      * @param  \Illuminate\Database\Eloquent\Model  $parent
      * @param  array  $foreignKeys
      * @param  array  $localKeys
-     * @return \Reedware\LaravelCompositeRelations\CompositeHasOne
+     * @return \Halo\LaravelCompositeRelations\CompositeHasOne
      */
     protected function newCompositeHasOne(Builder $query, Model $parent, array $foreignKeys, array $localKeys)
     {
@@ -118,7 +118,7 @@ trait HasCompositeRelations
      * @param  array|null  $foreignKeys
      * @param  array|null  $ownerKeys
      * @param  string      $relation
-     * @return \Reedware\LaravelCompositeRelations\CompositeBelongsTo
+     * @return \Halo\LaravelCompositeRelations\CompositeBelongsTo
      */
     public function compositeBelongsTo($related, array $foreignKeys = null, array $ownerKeys = null, $relation = null)
     {
@@ -155,7 +155,7 @@ trait HasCompositeRelations
      * @param  array  $foreignKeys
      * @param  array  $ownerKeys
      * @param  string  $relation
-     * @return \Reedware\LaravelCompositeRelations\CompositeBelongsTo
+     * @return \Halo\LaravelCompositeRelations\CompositeBelongsTo
      */
     protected function newCompositeBelongsTo(Builder $query, Model $child, array $foreignKeys, array $ownerKeys, $relation)
     {
@@ -180,7 +180,7 @@ trait HasCompositeRelations
      * @param  string      $related
      * @param  array|null  $foreignKeys
      * @param  array|null  $localKeys
-     * @return \Reedware\LaravelCompositeRelations\CompositeHasMany
+     * @return \Halo\LaravelCompositeRelations\CompositeHasMany
      */
     public function compositeHasMany($related, array $foreignKeys = null, array $localKeys = null)
     {
@@ -206,7 +206,7 @@ trait HasCompositeRelations
      * @param  \Illuminate\Database\Eloquent\Model  $parent
      * @param  array  $foreignKeys
      * @param  array  $localKeys
-     * @return \Reedware\LaravelCompositeRelations\CompositeHasMany
+     * @return \Halo\LaravelCompositeRelations\CompositeHasMany
      */
     protected function newCompositeHasMany(Builder $query, Model $parent, array $foreignKeys, array $localKeys)
     {

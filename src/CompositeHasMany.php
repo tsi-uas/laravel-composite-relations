@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations;
+namespace Halo\LaravelCompositeRelations;
 
 use Illuminate\Database\Eloquent\Collection;
 

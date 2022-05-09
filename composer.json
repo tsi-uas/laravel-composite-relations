@@ -1,5 +1,5 @@
 {
-    "name": "reedware/laravel-composite-relations",
+    "name": "halo/laravel-composite-relations",
     "description": "Adds the ability define composite eloquent relations.",
     "keywords": ["laravel", "relation", "composite", "eloquent"],
     "license": "MIT",
@@ -17,16 +17,16 @@
     "require-dev": {
         "mockery/mockery": "^1.4.2",
         "phpunit/phpunit": "^8.5",
-        "reedware/laravel-relation-joins": "^1.0.6"
+        "halo/laravel-relation-joins": "^1.0.6"
     },
     "autoload": {
         "psr-4": {
-            "Reedware\\LaravelCompositeRelations\\": "src/"
+            "Halo\\LaravelCompositeRelations\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Reedware\\LaravelCompositeRelations\\Tests\\": "tests/"
+            "Halo\\LaravelCompositeRelations\\Tests\\": "tests/"
         }
     },
     "extra": {

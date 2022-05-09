@@ -1,6 +1,6 @@
 <?php
 
-namespace Reedware\LaravelCompositeRelations\Tests;
+namespace Halo\LaravelCompositeRelations\Tests;
 
 use Mockery as m;
 use RuntimeException;
@@ -9,8 +9,8 @@ use PHPUnit\Framework\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\Pivot;
-use Reedware\LaravelCompositeRelations\HasCompositeRelations;
-use Reedware\LaravelRelationJoins\LaravelRelationJoinServiceProvider;
+use Halo\LaravelCompositeRelations\HasCompositeRelations;
+use Halo\LaravelRelationJoins\LaravelRelationJoinServiceProvider;
 
 class DatabaseEloquentCompositeRelationJoinTest extends TestCase
 {
